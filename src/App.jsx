@@ -10,7 +10,7 @@ const foods = [
 
 const clothes = [
   {id: 5, item: 'Tシャツ', quantity: 3, completed: false, imageUrl: '../image/T.jpg'},
-  {id: 6, item: 'ズボン', quantity: 2, completed: true, imageUrl: '../image/pants.jpg'},
+  {id: 6, item: 'ズボン', quantity: 2, completed: true, imageUrl: '../image/Pants.jpg'},
   {id: 7, item: '靴下', quantity: 5, completed: false, imageUrl: '../image/sock.jpg'},
   {id: 8, item: '靴', quantity: 1, completed: false, imageUrl: '../image/shoes.jpg'},
 ];
