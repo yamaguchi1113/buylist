@@ -1,0 +1,28 @@
+.shoppinglist {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopping-list-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: calc(50% - 20px); /* 4つのアイテムを1行に表示するための幅調整 */
+    box-sizing: border-box;
+}
+
+.item-image {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

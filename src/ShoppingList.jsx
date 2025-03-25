@@ -1,7 +1,8 @@
 import ShoppingListItem from "./ShoppingListItem.jsx"
+import "./ShoppingList.css"
 export default function ShoppingList({items}) {
     return (
-        <ul>
+        <ul className="shoppinglist">
             {
             items.map(i => (
                 <ShoppingListItem 
@@ -9,6 +10,7 @@ export default function ShoppingList({items}) {
                 item={i.item} 
                 quantity={i.quantity} 
                 completed={i.completed}
+                imageUrl={i.imageUrl}
                 //{...i}
             />
             ))}
