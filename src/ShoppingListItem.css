@@ -4,21 +4,16 @@ li {
     border: 1px solid #ddd;
     margin: 10px 0;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
   }
   
-  li:hover {
-    background-color: #f9f9f9;
-  }
-  
-  li.completed {
-    color: black;
-    text-decoration: line-through;
-  }
-  
-  li.not-completed {
-    color: red;
-    text-decoration: none;
-  }
+  .shopping-list-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    width: calc(32%); /* 4つのアイテムを1行に表示するための幅調整 */
+    box-sizing: border-box;
+}
